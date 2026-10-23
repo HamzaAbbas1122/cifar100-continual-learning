@@ -1,0 +1,83 @@
+# ==============================================================================
+# Deliverable 1 - CIFAR-100 Research Pipeline: .gitignore
+# ==============================================================================
+
+# Raw and Large Datasets (DO NOT commit large binaries/raw datasets to GitHub)
+data/raw/*
+!data/raw/.gitkeep
+*.tar.gz
+*.tar
+*.gz
+*.zip
+*.bin
+*.npy
+*.npz
+
+# Processed intermediate caches (uncomment if processed data exceeds GitHub file size limit)
+# data/processed/*.pt
+# data/processed/*.pkl
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+bin/
+include/
+lib/
+lib64/
+
+# Jupyter Notebook & Checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Machine Learning Checkpoints, Models & Tensors
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.onnx
+
+# Training Logs & Experiment Trackers
+*.log
+runs/
+wandb/
+.tensorboard/
+
+# OS-Specific Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Configurations
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~
+
+# Testing & Linting
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
