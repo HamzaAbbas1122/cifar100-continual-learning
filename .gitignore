@@ -69,6 +69,7 @@ desktop.ini
 # IDE & Editor Configurations
 .idea/
 .vscode/
+.vscode
 *.sublime-workspace
 *.sublime-project
 *.swp
