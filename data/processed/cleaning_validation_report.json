@@ -1,0 +1,96 @@
+{
+    "train": {
+        "split": "train",
+        "total_samples": 50000,
+        "missing_or_corrupt_images": 0,
+        "invalid_labels": 0,
+        "num_classes_present": 100,
+        "min_samples_per_class": 500,
+        "max_samples_per_class": 500,
+        "exact_duplicate_pairs_found": 14,
+        "duplicate_index_pairs": [
+            [
+                8599,
+                22657
+            ],
+            [
+                4348,
+                30931
+            ],
+            [
+                9012,
+                31128
+            ],
+            [
+                16646,
+                31828
+            ],
+            [
+                20635,
+                32666
+            ],
+            [
+                23947,
+                33638
+            ],
+            [
+                31227,
+                34187
+            ],
+            [
+                8393,
+                36874
+            ],
+            [
+                28293,
+                41860
+            ],
+            [
+                17688,
+                41874
+            ],
+            [
+                18461,
+                46752
+            ],
+            [
+                25218,
+                46851
+            ],
+            [
+                27737,
+                47636
+            ],
+            [
+                30418,
+                47806
+            ]
+        ],
+        "brightness_3sigma_outliers_count": 112,
+        "low_contrast_outliers_count": 0,
+        "clean_indices_retained": 49986
+    },
+    "test": {
+        "split": "test",
+        "total_samples": 10000,
+        "missing_or_corrupt_images": 0,
+        "invalid_labels": 0,
+        "num_classes_present": 100,
+        "min_samples_per_class": 100,
+        "max_samples_per_class": 100,
+        "exact_duplicate_pairs_found": 2,
+        "duplicate_index_pairs": [
+            [
+                4654,
+                6709
+            ],
+            [
+                3438,
+                7715
+            ]
+        ],
+        "brightness_3sigma_outliers_count": 25,
+        "low_contrast_outliers_count": 0,
+        "clean_indices_retained": 9998
+    }
+}
